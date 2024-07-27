@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+#container{
+    border: 2px solid black;
+    display: grid;
+    height: 45vw;
+    width: 45vw;
+    margin: 20px auto;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.box{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.color1{
+    background-color: rgb(240, 218, 181);
+}
+
+.color2{
+    background-color: rgb(180, 136, 99);
+}
+
